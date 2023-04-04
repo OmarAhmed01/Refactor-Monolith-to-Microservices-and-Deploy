@@ -5,6 +5,3 @@ AWS_BUCKET=mybucket-213793231964
 AWS_REGION=us-east-2
 AWS_PROFILE=default
 JWT_SECRET=testing
-
-
-
