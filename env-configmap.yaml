@@ -1,0 +1,10 @@
+POSTGRES_DB=postgres
+POSTGRES_HOST=postgres-project3.cdbnx50uuw2c.us-east-2.rds.amazonaws.com
+URL=http://localhost:8100
+AWS_BUCKET=mybucket-213793231964
+AWS_REGION=us-east-2
+AWS_PROFILE=default
+JWT_SECRET=testing
+
+
+
