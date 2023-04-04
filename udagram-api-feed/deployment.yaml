@@ -15,15 +15,15 @@ spec:
         service: udagram-api-feed
     spec:
       containers:
-      - image: omarzztelcocloud/udagram-api-feed:v5
+      - image: omarahmed01/udagram-api-feed:v4a
         name: udagram-api-feed
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
         envFrom:
           - secretRef:
-              name: envsecret
+              name: env-secret
           - configMapRef:
-              name: envconfigmap
+              name: env-configmap
 
 
